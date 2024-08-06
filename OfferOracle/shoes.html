@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes - Offer Oracle</title>
+    <link rel="stylesheet" type="text/css" href="oo.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            flex: 1 0 21%;
+            margin: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .box img {
+            width: 100%;
+            height: auto;
+        }
+
+        .box .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .box:hover .content {
+            opacity: 1;
+        }
+
+        .box h4, .box h3, .box p {
+            color: white;
+        }
+
+        .box a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Offer Oracle</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li>
+                <a href="#categories">Categories</a>
+                <div class="dropdown-content">
+                    <a href="shoes.html">Shoes</a>
+                    <a href="CLOTH.HTML">Clothing</a>
+                    <a href="#">Watches</a>
+                    <a href="#">Skincare</a>
+                    <a href="#">Perfume</a>
+                    <a href="#">More...</a>
+                </div>
+            </li>
+            <li><a href="#top-brands">Top Brands</a>
+                <div class="dropdown-content">
+                    <a href="#">Gucci</a>
+                    <a href="#">Chanel</a>
+                    <a href="#">Prada</a>
+                    <a href="#">Christian Dior</a>
+                </div>
+            </li>
+            <li><a href="#best-offers">Best Offers</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#"><i class="bx bx-search"></i></a>
+            <a href="#"><i class="bx bxs-user-circle"></i></a>
+        </div>
+    </header>
+
+    <section class="shop" id="shoes">
+        <div class="container">
+            <div class="box">
+                <img src="NIKE.jpeg" alt="NIKE">
+                <div class="content">
+                    <h4><a href="https://www.nike.com/in/">NIKE</a></h4>
+                    <h3>🔥 Exclusive Deals! 🔥</h3>
+                    <p>Up to 50% OFF on latest shoes! Shop now!</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="ADIDAS.png" alt="ADIDAS">
+                <div class="content">
+                    <h4><a href="https://www.adidas.co.in/">ADIDAS</a></h4>
+                    <h3>🎉 Big Sale! 🎉</h3>
+                    <p>Massive discounts on all products. Don’t miss out!</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="BATA.png" alt="BATA">
+                <div class="content">
+                    <h4><a href="https://www.bata.com/in/sale/">BATA</a></h4>
+                    <h3>💥 Mega Sale! 💥</h3>
+                    <p>Unbeatable prices on shoes. Limited time only!</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="puma.jpeg" alt="PUMA">
+                <div class="content">
+                    <h4><a href="https://in.puma.com/in/en">PUMA</a></h4>
+                    <h3>🔥 Hot Deals! 🔥</h3>
+                    <p>Get up to 40% OFF on select items!</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="SKETCHERS.jpeg" alt="SKETCHERS">
+                <div class="content">
+                    <h4><a href="https://www.skechers.in/">SKETCHERS</a></h4>
+                    <h3>🛍️ Flash Sale! 🛍️</h3>
+                    <p>Save big on new arrivals. Shop now!</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="convers1.png" alt="CONVERSE">
+                <div class="content">
+                    <h4><a href="https://www.converse.in/">CONVERSE</a></h4>
+                    <h3>🎈 Limited Offer! 🎈</h3>
+                    <p>Up to 60% OFF on classic styles. Don’t miss out!</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="CROCS.png" alt="CROCS">
+                <div class="content">
+                    <h4><a href="https://www.crocs.in/">CROCS</a></h4>
+                    <h3>💫 Special Sale! 💫</h3>
+                    <p>Huge discounts on all items. Shop now!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="last">
+            <p>© 2024 by Offer Oracle</p>
+        </div>
+    </footer>
+
+    <script src="offeroracle.js"></script>
+</body>
+
+</html>
